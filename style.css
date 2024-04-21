@@ -1,0 +1,64 @@
+body {
+	background: #53756E;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+.grid-container {
+	display: grid;
+	gap: 0px;
+	grid-template-columns: 100px;
+	justify-content: center;
+}
+
+.color-mix-1 {
+	background-color: color-mix(in srgb, blue, green);
+}
+
+.color-mix-2 {
+	background-color: color-mix(in srgb, red, blue);
+}
+
+.color-mix-3 {
+	background-color: color-mix(in srgb, #fcba03, #03fc28);
+}
+
+.color-mix-4 {
+	background-color: color-mix(in srgb, #fc03e8, #fca503);
+}
+
+.srgb {
+	background-color: color-mix(in srgb, blue, green);
+}
+
+.linear-srgb {
+	background-color: color-mix(in srgb-linear, blue, green);
+}
+
+.hsl {
+	background-color: color-mix(in hsl, blue, green);
+}
+
+.hwb {
+	background-color: color-mix(in hwb, blue, green);
+}
+
+.lch {
+	background-color: color-mix(in lch, blue, green);
+}
+
+.oklch {
+	background-color: color-mix(in oklch, blue, green);
+}
+
+.lab {
+	background-color: color-mix(in lab, blue, green);
+}
+
+.oklab {
+	background-color: color-mix(in oklab, blue, green);
+}
+
+.xyz {
+	background-color: color-mix(in xyz, blue, green);
+}
